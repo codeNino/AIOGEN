@@ -1,0 +1,22 @@
+#footer{
+  background-color: rgb(18, 37, 43);
+  margin-top: 3rem;
+  color: white;
+  padding: 3rem 0;
+}
+
+#footer img{
+  width: 100px;
+}
+
+#footer li{
+  list-style: none;
+  margin-left: -20px;
+  margin-top: 5px;
+}
+
+@media only screen and (max-width: 767px){
+  #footer .col-md-4{
+    margin-top: 2rem;
+  }
+}

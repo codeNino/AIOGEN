@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.34fbbfc3.chunk.css",
+    "main.js": "/static/js/main.09c65bcc.chunk.js",
+    "main.js.map": "/static/js/main.09c65bcc.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e0bc02a4.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e0bc02a4.js.map",
+    "static/js/2.ddf9aca0.chunk.js": "/static/js/2.ddf9aca0.chunk.js",
+    "static/js/2.ddf9aca0.chunk.js.map": "/static/js/2.ddf9aca0.chunk.js.map",
+    "static/js/3.7125ca94.chunk.js": "/static/js/3.7125ca94.chunk.js",
+    "static/js/3.7125ca94.chunk.js.map": "/static/js/3.7125ca94.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.34fbbfc3.chunk.css.map": "/static/css/main.34fbbfc3.chunk.css.map",
+    "static/js/2.ddf9aca0.chunk.js.LICENSE.txt": "/static/js/2.ddf9aca0.chunk.js.LICENSE.txt",
+    "static/media/accounts.e5b0d8e6.png": "/static/media/accounts.e5b0d8e6.png",
+    "static/media/adidas.9cfe553b.png": "/static/media/adidas.9cfe553b.png",
+    "static/media/gmail.a2f2146f.png": "/static/media/gmail.a2f2146f.png",
+    "static/media/Home.css": "/static/media/landing-bg.2985c520.jpg",
+    "static/media/logo.41aac0fc.png": "/static/media/logo.41aac0fc.png",
+    "static/media/logo1.0f5e8323.png": "/static/media/logo1.0f5e8323.png",
+    "static/media/logo2.0602a901.png": "/static/media/logo2.0602a901.png",
+    "static/media/outlook.5e0bcbe2.png": "/static/media/outlook.5e0bcbe2.png",
+    "static/media/yahoo.9a145d1f.png": "/static/media/yahoo.9a145d1f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e0bc02a4.js",
+    "static/js/2.ddf9aca0.chunk.js",
+    "static/css/main.34fbbfc3.chunk.css",
+    "static/js/main.09c65bcc.chunk.js"
+  ]
+}

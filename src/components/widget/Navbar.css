@@ -1,0 +1,24 @@
+.nav-acct {
+  height: 120px;
+  width: 100%;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  background-color: #ffffff;
+}
+
+.nav-container {
+  /* z-index: 15; */
+  /* background-color: #051622bb; */
+}
+
+.nav-text {
+  padding: 25px;
+  /* width: 6rem; */
+  /* height: 3rem; */
+}
+
+.nav-text button {
+  background-color: #1ba098;
+  border-radius: 7px;
+  /* width: 70px; */
+}

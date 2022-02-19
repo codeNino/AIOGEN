@@ -1,0 +1,80 @@
+#settings{
+  width: 100%;
+  justify-content: space-between;
+}
+
+.menu-btn{
+  display: none;
+  top: 10px;
+  right: 2%;
+  position: fixed;
+  padding: 5px 10px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  font-size: 25px;
+  outline-width: 0px;
+}
+
+.settings-div{
+  position: fixed;
+  right: 0;
+  width: calc(100% - 220px);
+  background-color: rgb(36, 47, 53);
+  color: white;
+  height: 100vh;
+  overflow-y: auto;
+  /* padding-bottom: 3rem; */
+}
+
+@media only screen and (max-width: 767px){
+  .settings-div{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 767px){
+  .menu-btn{
+    display: block;
+  }
+}
+
+.settings-title{
+  margin-top: 3rem;
+  max-width: 140px;
+  background-color: rgb(21, 29, 32);
+  padding: 5px 20px;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#settings form{
+  width: 100%;
+  background-color: rgb(21, 29, 32);
+  margin-top: 1rem;
+  border-radius: 10px;
+  padding: 5%;
+  margin-bottom: 2rem;
+}
+
+#settings label{
+  margin-top: 1rem;
+}
+
+#settings input, #settings textarea{
+  width: 100%;
+  margin-top: 5px;
+  border: none;
+  height: 40px;
+  background-color: rgb(36, 47, 53);
+}
+
+#settings textarea{
+  height: 15rem;
+}
+
+#settings .btn-div{
+  text-align: right;
+}

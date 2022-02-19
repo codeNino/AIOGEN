@@ -1,0 +1,199 @@
+.main{
+  width: 100%;
+  padding: 20vh 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../../../assets/images/backgrounds/landing-bg.jpg') no-repeat center;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+
+.main h1{
+  font-size: 45px;
+}
+
+.main button{
+  margin-top: 2rem;
+  padding: 10px 40px;
+}
+
+.first-row{
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+
+.first-row .row{
+  align-items: center;
+}
+
+.first-row .col-md-6{
+  /* width: 100%; */
+  padding: 0 5%;
+}
+
+.left-col{
+  padding: 0 7%;
+}
+
+.first-row h5{
+  font-size: 22px;
+}
+
+.first-row img{
+  width: 100%;
+}
+
+.points{
+  background-color: rgb(26, 36, 46);
+  padding: 4rem 0;
+  color: white;
+  text-align: center;
+}
+
+.points .col-md-4{
+  padding: 0 5%;
+}
+
+.points .col-md-4 i{
+  font-size: 40px;
+}
+
+.plans{
+  padding: 4rem 0;
+}
+
+.plans .head{
+  margin-bottom: 5rem !important;
+}
+
+.plans .head h4{
+  font-size: 30px;
+  text-align: center;
+}
+
+.plans .head p{
+  width: 300px;
+  margin-left: calc(50% - 150px);
+  text-align: center;
+  margin-top: 10px;
+}
+
+.plans .row{
+  margin-top: 3rem;
+}
+
+.plans .col-md-4{
+  padding:  0 2%;
+  margin-top: 1rem;
+}
+
+.sub-card{
+  border: 1px solid green;
+  padding: 15% 20%;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.sub-card .price{
+  width: 140px;
+  height: 38px;
+  border: 1px solid green;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-left: calc(50% - 70px);
+  padding-top: 4px;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.standard{
+  margin-top: -2rem !important;
+}
+
+.standard .sub-card{
+  background-color: rgb(18, 37, 43) !important;
+  color: white;
+}
+
+.standard .sub-card button{
+  background-color: white;
+  border-color: white;
+  color: green;
+}
+
+.standard .price{
+  background-color: white;
+  color: black;
+}
+
+@media only screen and (max-width: 767px){
+  .main h1{
+    font-size: 30px;
+  }
+  .main h5{
+    font-size: 18px;
+  }
+}
+
+.contact{
+  background-color: rgb(18, 37, 43);
+  color: white;
+  padding: 3rem 0;
+}
+
+.contact h3{
+  text-align: center;
+}
+
+.contact .row{
+  margin-top: 4rem;
+}
+
+.contact p{
+  margin-top: 1.5rem;
+}
+
+.contact form .input-pair{
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-pair input{
+  width: 48% !important;
+}
+
+.contact form input, .contact form textarea{
+  width: 100%;
+  margin-bottom: 1rem;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 1px solid white;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: white;
+}
+
+.contact form input{
+  height: 40px;
+}
+
+.contact form input::placeholder{
+  color: white;
+}
+
+.contact form textarea{
+  height: 5rem;
+}
+
+.contact form textarea::placeholder{
+  color: white;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .contact form{
+    margin-top: 2rem;
+  }
+  .standard{
+    margin-top: 1rem !important;
+  }
+}

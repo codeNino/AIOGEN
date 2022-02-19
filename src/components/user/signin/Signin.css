@@ -1,0 +1,87 @@
+#signin form{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 3rem;
+}
+
+.left-div{
+  display: flex;
+  align-items: center;
+  width: 50%;
+  background-color: rgb(18, 37, 43);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  color: white;
+}
+
+.left-div div{
+  width: 100%;
+  text-align: center;
+}
+
+.left-div img{
+  width: 150px;
+}
+
+.right-div{
+  width: 50%;
+  padding: 8rem 5%;
+  background-color: rgb(235, 235, 235);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.right-div h3{
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.right-div label{
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 567px){
+  .right-div{
+    padding: 4rem 5%;
+  }
+
+  .right-div label{
+    margin-top: 1.5rem;
+  }
+}
+
+.right-div input{
+  width: 100%;
+  height: 45px;
+  background-color: white;
+  outline-width: 0px;
+  border: 1px solid black;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.right-div span{
+  display: block;
+  margin-top: 1rem;
+}
+
+.right-div a{
+  color: rgb(29, 180, 29);
+}
+
+.right-div button{
+  margin-top: 3rem;
+}
+
+@media only screen and (max-width: 767px){
+  .left-div{
+    display: none;
+  }
+  .right-div{
+    width: 100%;
+    border-radius: 5px;
+  }
+}

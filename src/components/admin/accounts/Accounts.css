@@ -1,0 +1,80 @@
+#account{
+  /* display: flex; */
+  width: 100%;
+  justify-content: space-between;
+}
+
+.menu-btn{
+  display: none;
+  top: 10px;
+  right: 2%;
+  position: fixed;
+  padding: 5px 10px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  font-size: 25px;
+}
+
+.account-div{
+  position: fixed;
+  right: 0;
+  width: calc(100% - 220px);
+  background-color: rgb(36, 47, 53);
+  color: white;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+@media only screen and (max-width: 767px){
+  .account-div{
+    width: 100%;
+  }
+}
+
+.account-div .pane{
+  padding: 3rem 15%;
+  text-align: center;
+}
+
+#account .col-md-4{
+  padding: 5%;
+}
+
+#account .col-md-4 .icon{
+  background-color: rgb(21, 29, 32);
+  padding: 10%;
+  border-radius: 10px;
+}
+
+#account .col-md-4 .icon .details{
+  display: flex;
+  justify-content: space-between;
+}
+
+#account .details span{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background-color: green;
+  font-size: 12px;
+  width: 22px;
+  height: 22px;
+}
+
+#account .icon .image{
+  padding: 10%;
+  text-align: center;
+}
+
+#account .col-md-4 img{
+  width: 100%;
+}
+
+@media only screen and (max-width: 767px){
+  .menu-btn{
+    display: block;
+  }
+}

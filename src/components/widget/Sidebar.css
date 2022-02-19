@@ -1,0 +1,63 @@
+.sidenav button {
+  position: fixed;
+  left: 40px;
+  top: 40px;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.menuNav {
+  overflow-y: scroll;
+  list-style: none;
+  position: fixed;
+  top: 0;
+  background: #051622;
+  left: 0;
+  bottom: 0;
+  height: 100vh;
+  width: 0;
+  overflow: hidden;
+  max-width: 25%;
+  z-index: 9;
+}
+
+.menuNav.showMenu {
+  width: 100%;
+}
+
+a {
+  display: block;
+  padding: 10px 40px;
+  text-decoration: none;
+  color: #3fffd2;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.menuNav li:first-child {
+  margin-top: 7rem;
+}
+
+.sidenav button {
+  /* background-color: #3fffd2; */
+  border: none;
+  /* width: 100%; */
+}
+
+/* .sidenav {
+  background-color: #051622;
+  z-index: 100;
+}
+.user-profile-button {
+  background-color: #051622;
+  border-radius: 1.5rem;
+  height: 49px;
+}
+.avatar-icon {
+  color: rgb(255, 255, 255);
+}
+.active-text {
+  color: #1ba098;
+}
+.side-text {
+} */
